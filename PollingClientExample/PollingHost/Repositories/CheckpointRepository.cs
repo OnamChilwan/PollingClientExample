@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PollingHost.Repositories
+﻿namespace PollingHost.Repositories
 {
+    using System;
+    using System.Linq;
     using System.Configuration;
 
     using MongoDB.Bson;

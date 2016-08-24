@@ -1,6 +1,7 @@
-﻿using System;
-namespace PollingHost.Documents
+﻿namespace PollingHost.Documents
 {
+    using System;
+
     public class Checkpoint
     {
         public Object Id { get; set; }
