@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D86F2C85-947D-46AB-90EA-BA7B84D54F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{61CA54C0-60D0-4744-B232-6C81863DDA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollingHost", "PollingHost\PollingHost.csproj", "{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61CA54C0-60D0-4744-B232-6C81863DDA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CA54C0-60D0-4744-B232-6C81863DDA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CA54C0-60D0-4744-B232-6C81863DDA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CA54C0-60D0-4744-B232-6C81863DDA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61CA54C0-60D0-4744-B232-6C81863DDA26} = {D86F2C85-947D-46AB-90EA-BA7B84D54F76}
+		{1ED5E096-96E0-405A-8AC8-BAD65F5C6CD9} = {D86F2C85-947D-46AB-90EA-BA7B84D54F76}
+		{0108A9ED-1ED6-41AD-A1C5-BD6EF6F8FE87} = {D86F2C85-947D-46AB-90EA-BA7B84D54F76}
+	EndGlobalSection
+EndGlobal
